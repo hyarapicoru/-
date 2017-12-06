@@ -12,7 +12,7 @@
         Dim form1 As New AdministratorForm '遷移先
         Owner.Enabled = True
 
-        'メモリ開放も行う方の閉じる()
+        'メモリ開放も行う方の閉じる()a
         Me.Dispose()
     End Sub
 
