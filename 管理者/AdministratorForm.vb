@@ -4,7 +4,7 @@
 
     Private Sub ButtonAdd_Click(sender As Object, e As EventArgs)
         Dim TargetForm As New SelectAddDocument '遷移先
-        '表示するフォームのみ操作可能とする
+        '表示するフォームのみ操作可能とするa
         MoveInfoSetter("SelectAddDocument")
         MoveForm()
     End Sub
