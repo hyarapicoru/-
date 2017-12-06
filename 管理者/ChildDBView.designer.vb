@@ -35,6 +35,7 @@ Partial Class ChildDBView
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.BunifuFlatButton8 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BunifuFlatButton7 = New Bunifu.Framework.UI.BunifuFlatButton()
+        Me.BunifuImageButton1 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -54,11 +55,12 @@ Partial Class ChildDBView
         Me.header = New Bunifu.Framework.UI.BunifuGradientPanel()
         Me.BunifuImageButton3 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.BunifuImageButton2 = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.BunifuImageButton1 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.BunifuImageButton1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.BunifuImageButton5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -68,7 +70,6 @@ Partial Class ChildDBView
         Me.header.SuspendLayout()
         CType(Me.BunifuImageButton3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BunifuImageButton2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.BunifuImageButton1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button2
@@ -106,7 +107,7 @@ Partial Class ChildDBView
         Me.TableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
         Me.TableLayoutPanel1.ColumnCount = 2
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 644.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 645.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label2, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Label4, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox1, 1, 0)
@@ -127,7 +128,7 @@ Partial Class ChildDBView
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("メイリオ", 14.0!)
         Me.Label2.ForeColor = System.Drawing.Color.Gray
-        Me.Label2.Location = New System.Drawing.Point(33, 12)
+        Me.Label2.Location = New System.Drawing.Point(32, 12)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(88, 28)
         Me.Label2.TabIndex = 0
@@ -139,7 +140,7 @@ Partial Class ChildDBView
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("メイリオ", 14.0!)
         Me.Label4.ForeColor = System.Drawing.Color.Gray
-        Me.Label4.Location = New System.Drawing.Point(52, 64)
+        Me.Label4.Location = New System.Drawing.Point(51, 64)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(50, 28)
         Me.Label4.TabIndex = 1
@@ -249,6 +250,20 @@ Partial Class ChildDBView
         Me.BunifuFlatButton7.Textcolor = System.Drawing.Color.White
         Me.BunifuFlatButton7.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
+        'BunifuImageButton1
+        '
+        Me.BunifuImageButton1.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuImageButton1.Image = CType(resources.GetObject("BunifuImageButton1.Image"), System.Drawing.Image)
+        Me.BunifuImageButton1.ImageActive = Nothing
+        Me.BunifuImageButton1.Location = New System.Drawing.Point(759, 189)
+        Me.BunifuImageButton1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.BunifuImageButton1.Name = "BunifuImageButton1"
+        Me.BunifuImageButton1.Size = New System.Drawing.Size(55, 54)
+        Me.BunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton1.TabIndex = 10
+        Me.BunifuImageButton1.TabStop = False
+        Me.BunifuImageButton1.Zoom = 10
+        '
         'TableLayoutPanel2
         '
         Me.TableLayoutPanel2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -259,7 +274,7 @@ Partial Class ChildDBView
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 79.56204!))
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.43796!))
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 185.0!))
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 59.0!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 61.0!))
         Me.TableLayoutPanel2.Controls.Add(Me.CheckBox2, 3, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.Label6, 0, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.CheckBox1, 1, 0)
@@ -276,7 +291,7 @@ Partial Class ChildDBView
         '
         Me.CheckBox2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(424, 17)
+        Me.CheckBox2.Location = New System.Drawing.Point(423, 17)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox2.TabIndex = 3
@@ -286,9 +301,9 @@ Partial Class ChildDBView
         '
         Me.Label6.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(4, 10)
+        Me.Label6.Location = New System.Drawing.Point(12, 1)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(164, 28)
+        Me.Label6.Size = New System.Drawing.Size(145, 46)
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "退職フラグを含む"
         '
@@ -296,7 +311,7 @@ Partial Class ChildDBView
         '
         Me.CheckBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(186, 17)
+        Me.CheckBox1.Location = New System.Drawing.Point(184, 17)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox1.TabIndex = 1
@@ -306,7 +321,7 @@ Partial Class ChildDBView
         '
         Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(236, 10)
+        Me.Label7.Location = New System.Drawing.Point(234, 10)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(145, 28)
         Me.Label7.TabIndex = 2
@@ -316,6 +331,7 @@ Partial Class ChildDBView
         '
         Me.Panel2.BackColor = System.Drawing.Color.Transparent
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel2.Controls.Add(Me.Button4)
         Me.Panel2.Controls.Add(Me.BunifuImageButton5)
         Me.Panel2.Controls.Add(Me.BunifuImageButton4)
         Me.Panel2.Controls.Add(Me.BunifuFlatButton4)
@@ -628,20 +644,6 @@ Partial Class ChildDBView
         Me.BunifuImageButton2.TabStop = False
         Me.BunifuImageButton2.Zoom = 10
         '
-        'BunifuImageButton1
-        '
-        Me.BunifuImageButton1.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuImageButton1.Image = CType(resources.GetObject("BunifuImageButton1.Image"), System.Drawing.Image)
-        Me.BunifuImageButton1.ImageActive = Nothing
-        Me.BunifuImageButton1.Location = New System.Drawing.Point(759, 189)
-        Me.BunifuImageButton1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.BunifuImageButton1.Name = "BunifuImageButton1"
-        Me.BunifuImageButton1.Size = New System.Drawing.Size(55, 54)
-        Me.BunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.BunifuImageButton1.TabIndex = 10
-        Me.BunifuImageButton1.TabStop = False
-        Me.BunifuImageButton1.Zoom = 10
-        '
         'Label1
         '
         Me.Label1.BackColor = System.Drawing.Color.Transparent
@@ -659,6 +661,15 @@ Partial Class ChildDBView
         Me.ImageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit
         Me.ImageList1.ImageSize = New System.Drawing.Size(16, 16)
         Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(68, 40)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 67)
+        Me.Button4.TabIndex = 42
+        Me.Button4.Text = "一時テスト用の削除するボタン"
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'ChildDBView
         '
@@ -679,6 +690,7 @@ Partial Class ChildDBView
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
+        CType(Me.BunifuImageButton1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel2.ResumeLayout(False)
         Me.TableLayoutPanel2.PerformLayout()
         Me.Panel2.ResumeLayout(False)
@@ -689,7 +701,6 @@ Partial Class ChildDBView
         Me.header.ResumeLayout(False)
         CType(Me.BunifuImageButton3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BunifuImageButton2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BunifuImageButton1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -726,5 +737,6 @@ Partial Class ChildDBView
     Friend WithEvents BunifuImageButton5 As Bunifu.Framework.UI.BunifuImageButton
     Friend WithEvents BunifuImageButton4 As Bunifu.Framework.UI.BunifuImageButton
     Friend WithEvents ImageList1 As System.Windows.Forms.ImageList
+    Friend WithEvents Button4 As System.Windows.Forms.Button
 
 End Class
